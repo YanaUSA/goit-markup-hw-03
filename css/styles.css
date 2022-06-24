@@ -46,7 +46,7 @@ h1, h2, h3, p {
 /* Studio-page */
 
 .header{
-  background-color: teal;
+  /* background-color: teal; */
 }
 .container {
   background-color: rgb(241, 228, 122);
@@ -55,8 +55,14 @@ h1, h2, h3, p {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+  
 }
+.inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
+}
 .logo,
 .logo-blk,
 .logo-wht {
@@ -95,6 +101,16 @@ h1, h2, h3, p {
 .link:focus {
   color: var(--accent-color);
 }
+
+.nav-item >.link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.link:not(:last-child) {
+  margin-right: 50px;
+}
+
 .hero {
   background: var(--secondary-bgd);
   /* text-align: center; */
@@ -185,6 +201,9 @@ background-color: #188CE8;
 }
 .footer-bgr {
   background: var(--secondary-bgd);
+}
+.padding {
+  padding: 60px 0px;
 }
 .footer,
 .footer-address,
