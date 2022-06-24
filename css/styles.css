@@ -42,6 +42,11 @@ a {
 h1, h2, h3, p {
   margin: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 /* Studio-page */
 .container {
@@ -122,28 +127,31 @@ h1, h2, h3, p {
   display: flex;
   margin-left: auto;
 }
-
 .hero {
   background: var(--secondary-bgd);
-  /* text-align: center; */
+  text-align: center;
 }
 .section {
   padding: 94px 0;
 }
 .hero-title {
+  width: 700px;
+  margin-bottom: 30px;
+    margin-left: auto;
+  margin-right: auto;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--wht-text-color);
-  margin-bottom: 30px;
-  
 }
 .centered {
   text-align: center;
 }
 .button {
+  display: inline-block;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -151,14 +159,35 @@ h1, h2, h3, p {
   letter-spacing: 0.06em;
   color: var(--wht-text-color);
   background-color: var(--accent-color);
+
   padding: 10px 32px;
-  /* margin-bottom: 200px; */
+  border: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   cursor: pointer;
-  
 }
 .button:hover,
 .button:focus {
 background-color: #188CE8;
+}
+.features {
+  /* display: flex; */
+}
+.feature-list {
+  display: flex;
+} 
+.feature-list li:not(:last-child) {
+  margin-right: 30px;
+}
+.feature-list li {
+  width: 270px;
+}
+.pic-list {
+  display: flex;
+  justify-content:space-between;
+}
+.works {
+  padding-top: 0;
 }
 .section-title {
   font-size: 36px;
@@ -179,6 +208,12 @@ background-color: #188CE8;
 }
 .team-bgr {
   background: var(--secondary-section-bgd);
+}
+.team {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
 }
 .team-item {
   background-color: var(--wht-text-color);
@@ -213,10 +248,9 @@ background-color: #188CE8;
 }
 .footer-bgr {
   background: var(--secondary-bgd);
-}
-.padding {
   padding: 60px 0px;
 }
+
 .footer,
 .footer-address,
 .contact-link {
