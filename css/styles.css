@@ -34,6 +34,7 @@ color: var(--main-text-color);
 ul {
   list-style: none;
   margin: 0;
+  padding-left: 0px;
 }
 a {
   text-decoration: none;
@@ -48,10 +49,14 @@ h1, h2, h3, p {
   background-color: teal;
 }
 .container {
-  background-color: tomato;
-  outline: 3px solid #tomato;
+  background-color: rgb(241, 228, 122);
+  outline: 3px solid rgb(175, 10, 117);
+
   width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
+
 .logo,
 .logo-blk,
 .logo-wht {
@@ -92,6 +97,9 @@ h1, h2, h3, p {
 }
 .hero {
   background: var(--secondary-bgd);
+}
+.section {
+  /* padding: 94px 0; */
 }
 .hero-title {
   font-weight: 900;
