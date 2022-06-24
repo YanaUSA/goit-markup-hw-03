@@ -97,6 +97,7 @@ h1, h2, h3, p {
 }
 .hero {
   background: var(--secondary-bgd);
+  text-align: center;
 }
 .section {
   /* padding: 94px 0; */
@@ -105,22 +106,26 @@ h1, h2, h3, p {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--wht-text-color);
+  margin-bottom: 30px;
 }
 .button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--wht-text-color);
   background-color: var(--accent-color);
+  padding: 10px 32px;
+  margin-bottom: 200px;
   cursor: pointer;
-  font-family: inherit;
+  
 }
-.button:hover {
+.button:hover,
+.button:focus {
 background-color: #188CE8;
 }
 .section-title {
