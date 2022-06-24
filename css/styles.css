@@ -283,6 +283,7 @@ color: var(--accent-color);
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   background: var(--secondary-section-bgd);
+  border: 0px;
   border-radius: 4px;
   padding: 6px 22px;
   cursor: pointer;
