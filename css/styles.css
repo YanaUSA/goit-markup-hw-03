@@ -97,7 +97,7 @@ h1, h2, h3, p {
 }
 .hero {
   background: var(--secondary-bgd);
-  text-align: center;
+  /* text-align: center; */
 }
 .section {
   padding: 94px 0;
@@ -180,7 +180,9 @@ background-color: #188CE8;
 .position {
   color: var(--grey-text-color);
 }
-
+.footer-bgr {
+  background: var(--secondary-bgd);
+}
 .footer,
 .footer-address,
 .contact-link {
@@ -193,6 +195,10 @@ background-color: #188CE8;
 
 .footer .contact-link {
   color: var(--contacts-color);
+}
+.container > .logo {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 .contact-link:hover {
 color: var(--accent-color);
