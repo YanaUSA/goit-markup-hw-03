@@ -30,7 +30,7 @@ color: var(--main-text-color);
 --secondary-section-bgd: #F5F4FA;
 } 
 
-/* Utilits */
+/* Default */
 ul {
   list-style: none;
 }
