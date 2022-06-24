@@ -30,15 +30,28 @@ color: var(--main-text-color);
 --secondary-section-bgd: #F5F4FA;
 } 
 
-/* Default */
+/* Utilits */
 ul {
   list-style: none;
+  margin: 0;
 }
 a {
   text-decoration: none;
 }
+h1, h2, h3, p {
+  margin: 0;
+}
 
 /* Studio-page */
+
+.header{
+  background-color: teal;
+}
+.container {
+  background-color: tomato;
+  outline: 3px solid #tomato;
+  width: 1200px;
+}
 .logo,
 .logo-blk,
 .logo-wht {
